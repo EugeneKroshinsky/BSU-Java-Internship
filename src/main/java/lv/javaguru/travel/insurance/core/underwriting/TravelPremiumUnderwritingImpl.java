@@ -6,6 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.util.List;
 
 @Component
@@ -16,6 +17,6 @@ class TravelPremiumUnderwritingImpl implements TravelPremiumUnderwriting {
         return calculators.stream()
                 .filter(c -> request.getSelectedRisks().contains(c.getRiskIc()))
                 .map(c -> c.calculatePremium(request))
-                .reduce(BigDecimal.ZERO, BigDecimal::add);
+                .reduce(BigDecimal.ZERO, BigDecimal::add).setScale(2, RoundingMode.HALF_UP);
     }
 }

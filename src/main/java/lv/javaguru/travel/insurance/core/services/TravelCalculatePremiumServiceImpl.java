@@ -14,7 +14,7 @@ import java.util.List;
 
 @Component
 class TravelCalculatePremiumServiceImpl implements TravelCalculatePremiumService {
-    @Autowired private SelectedRisksPremiumCalculator electedRisksCalculatorImpl;
+    @Autowired private SelectedRisksPremiumCalculator selectedRisksCalculatorImpl;
     @Autowired private PremiumRequestValidator requestValidator;
     @Autowired private TravelCalculatePremiumRequestLogger logger;
     @Autowired private TravelPremiumUnderwriting premiumUnderwriting;
@@ -33,7 +33,7 @@ class TravelCalculatePremiumServiceImpl implements TravelCalculatePremiumService
         response.setAgreementDateFrom(request.getAgreementDateFrom());
         response.setAgreementDateTo(request.getAgreementDateTo());
         response.setAgreementPremium(premiumUnderwriting.calculatePremium(request));
-        response.setRisks(electedRisksCalculatorImpl.calculateTravelRisksList(request));
+        response.setRisks(selectedRisksCalculatorImpl.calculateTravelRisksList(request));
         response.setCountry(request.getCountry());
         response.setPersonBirthDate(request.getPersonBirthDate());
         response.setMedicalRiskLimitLevel(request.getMedicalRiskLimitLevel());

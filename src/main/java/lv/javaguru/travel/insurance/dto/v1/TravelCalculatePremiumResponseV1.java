@@ -40,7 +40,6 @@ public class TravelCalculatePremiumResponseV1 extends CoreResponse {
     private List<TravelRisk> risks;
 
     @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
-    @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date personBirthDate;
 
     private String medicalRiskLimitLevel;
