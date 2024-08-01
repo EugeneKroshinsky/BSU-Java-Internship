@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lv.javaguru.travel.insurance.core.validations.EmptyCountryValidatorTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2024-04-04T19:32:40" hostname="WIN-6V3MTR2VJA7" time="0.006">
+  <properties/>
+  <testcase name="validateNoErrorsTest()" classname="lv.javaguru.travel.insurance.core.validations.EmptyCountryValidatorTest" time="0.001"/>
+  <testcase name="validateNoErrorsNullTest()" classname="lv.javaguru.travel.insurance.core.validations.EmptyCountryValidatorTest" time="0.003"/>
+  <testcase name="validateNullFirstNameTest()" classname="lv.javaguru.travel.insurance.core.validations.EmptyCountryValidatorTest" time="0.001"/>
+  <testcase name="injectedRepositoryAreNotNull()" classname="lv.javaguru.travel.insurance.core.validations.EmptyCountryValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

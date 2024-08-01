@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lv.javaguru.travel.insurance.core.validations.NotExistLimitLevelValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-04-04T19:32:40" hostname="WIN-6V3MTR2VJA7" time="0.014">
+  <properties/>
+  <testcase name="validateNoMedicalRiskTest()" classname="lv.javaguru.travel.insurance.core.validations.NotExistLimitLevelValidatorTest" time="0.003"/>
+  <testcase name="validateNotExistingLimitLevelTest()" classname="lv.javaguru.travel.insurance.core.validations.NotExistLimitLevelValidatorTest" time="0.002"/>
+  <testcase name="validateLimitLevelTest()" classname="lv.javaguru.travel.insurance.core.validations.NotExistLimitLevelValidatorTest" time="0.002"/>
+  <testcase name="validateNoErrorsTest()" classname="lv.javaguru.travel.insurance.core.validations.NotExistLimitLevelValidatorTest" time="0.003"/>
+  <testcase name="injectedRepositoryAreNotNull()" classname="lv.javaguru.travel.insurance.core.validations.NotExistLimitLevelValidatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

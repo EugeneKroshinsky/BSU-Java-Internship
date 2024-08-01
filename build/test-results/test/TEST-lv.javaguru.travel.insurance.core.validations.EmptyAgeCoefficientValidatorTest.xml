@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lv.javaguru.travel.insurance.core.validations.EmptyAgeCoefficientValidatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-04-04T19:32:40" hostname="WIN-6V3MTR2VJA7" time="0.007">
+  <properties/>
+  <testcase name="validateBigAgeTest()" classname="lv.javaguru.travel.insurance.core.validations.EmptyAgeCoefficientValidatorTest" time="0.002"/>
+  <testcase name="validateNoRiskEnableTest()" classname="lv.javaguru.travel.insurance.core.validations.EmptyAgeCoefficientValidatorTest" time="0.001"/>
+  <testcase name="validateNoErrorsTest()" classname="lv.javaguru.travel.insurance.core.validations.EmptyAgeCoefficientValidatorTest" time="0.001"/>
+  <testcase name="validateNegativeAgeTest()" classname="lv.javaguru.travel.insurance.core.validations.EmptyAgeCoefficientValidatorTest" time="0.001"/>
+  <testcase name="injectedRepositoryAreNotNull()" classname="lv.javaguru.travel.insurance.core.validations.EmptyAgeCoefficientValidatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

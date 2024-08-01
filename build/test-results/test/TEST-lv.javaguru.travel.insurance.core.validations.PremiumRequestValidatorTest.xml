@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lv.javaguru.travel.insurance.core.validations.PremiumRequestValidatorTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-04-04T19:32:41" hostname="WIN-6V3MTR2VJA7" time="0.01">
+  <properties/>
+  <testcase name="validateTestNotEmptyListTest()" classname="lv.javaguru.travel.insurance.core.validations.PremiumRequestValidatorTest" time="0.007"/>
+  <testcase name="validateTestEmptyListTest()" classname="lv.javaguru.travel.insurance.core.validations.PremiumRequestValidatorTest" time="0.002"/>
+  <testcase name="injectedRepositoryAreNotNull()" classname="lv.javaguru.travel.insurance.core.validations.PremiumRequestValidatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

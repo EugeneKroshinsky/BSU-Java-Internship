@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="lv.javaguru.travel.insurance.core.services.TravelCalculatePremiumServiceImplTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2024-04-04T19:32:40" hostname="WIN-6V3MTR2VJA7" time="0.16">
+  <properties/>
+  <testcase name="calculatePremiumTestHasErrors()" classname="lv.javaguru.travel.insurance.core.services.TravelCalculatePremiumServiceImplTest" time="0.138"/>
+  <testcase name="calculatePremiumTestFirstName()" classname="lv.javaguru.travel.insurance.core.services.TravelCalculatePremiumServiceImplTest" time="0.003"/>
+  <testcase name="calculatePremiumTestDateTo()" classname="lv.javaguru.travel.insurance.core.services.TravelCalculatePremiumServiceImplTest" time="0.003"/>
+  <testcase name="calculatePremiumTestAgreementPrice()" classname="lv.javaguru.travel.insurance.core.services.TravelCalculatePremiumServiceImplTest" time="0.004"/>
+  <testcase name="calculatePremiumTestDateFrom()" classname="lv.javaguru.travel.insurance.core.services.TravelCalculatePremiumServiceImplTest" time="0.003"/>
+  <testcase name="injectedRepositoryAreNotNull()" classname="lv.javaguru.travel.insurance.core.services.TravelCalculatePremiumServiceImplTest" time="0.001"/>
+  <testcase name="calculatePremiumTestLastName()" classname="lv.javaguru.travel.insurance.core.services.TravelCalculatePremiumServiceImplTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

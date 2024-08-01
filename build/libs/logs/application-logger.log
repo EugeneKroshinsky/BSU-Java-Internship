@@ -1,0 +1,28 @@
+2024-03-17 14:37:40,959 [main] INFO  l.j.t.insurance.InsuranceApplication - Starting InsuranceApplication using Java 21.0.1 on WIN-6V3MTR2VJA7 with PID 18412 (C:\Java Projects\JavaInternship\bsu-java-internship-2023\student_kroshinsky_eugene\build\libs\insurance-calculator-1.0.0.jar started by Eugene in C:\Java Projects\JavaInternship\bsu-java-internship-2023\student_kroshinsky_eugene\build\libs)
+2024-03-17 14:37:40,966 [main] INFO  l.j.t.insurance.InsuranceApplication - No active profile set, falling back to 1 default profile: "default"
+2024-03-17 14:37:41,809 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-03-17 14:37:41,952 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 119 ms. Found 5 JPA repository interfaces.
+2024-03-17 14:37:42,732 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-03-17 14:37:42,747 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-03-17 14:37:42,748 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-03-17 14:37:42,748 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.68]
+2024-03-17 14:37:42,824 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-03-17 14:37:42,824 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1788 ms
+2024-03-17 14:37:43,090 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-03-17 14:37:43,531 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-03-17 14:37:43,583 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-03-17 14:37:43,632 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.12.Final
+2024-03-17 14:37:43,944 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-03-17 14:37:44,089 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2024-03-17 14:37:44,696 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-03-17 14:37:44,704 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-03-17 14:37:45,481 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-03-17 14:37:45,847 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2024-03-17 14:37:45,887 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2024-03-17 14:37:45,900 [main] INFO  l.j.t.insurance.InsuranceApplication - Started InsuranceApplication in 5.408 seconds (JVM running for 6.182)
+2024-03-17 14:38:35,498 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-03-17 14:38:35,498 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-03-17 14:38:35,500 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2024-03-17 14:38:35,798 [http-nio-8080-exec-1] INFO  l.j.t.i.r.l.TravelCalculatePremiumRequestLogger - REQUEST: {"personFirstName":"Vasja","personLastName":"Pupkin","agreementDateFrom":"2024-05-25","agreementDateTo":"2024-05-29","country":"SPAIN","dateOfBirth":"2050-05-29","medicalRiskLimitLevel":"LEVEL_50000","selected_risks":["TRAVEL_MEDICAL","TRAVEL_CANCELLATION","TRAVEL_LOSS_BAGGAGE"]}
+2024-03-17 14:38:36,038 [http-nio-8080-exec-1] INFO  l.j.t.i.r.l.TravelCalculatePremiumResponseLogger - RESPONSE: {"errors":[{"errorCode":"ERROR_CODE_11","description":"You chose wrong dateOfBirth!"},{"errorCode":"ERROR_CODE_10","description":"Field dateOfBirth from future!"}],"personFirstName":null,"personLastName":null,"agreementDateFrom":null,"agreementDateTo":null,"agreementPremium":null,"country":null,"risks":null,"dateOfBirth":null,"medicalRiskLimitLevel":null}
+2024-03-17 14:38:36,039 [http-nio-8080-exec-1] INFO  l.j.t.i.r.l.TravelCalculatePremiumRequestExecutionTimeLogger - Request processing time (ms): 275
